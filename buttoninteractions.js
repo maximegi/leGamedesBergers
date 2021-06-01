@@ -34,9 +34,10 @@ function tenSheep() {
     }
     probaPorteRose(deletedSheeps, r);
     probaPorteNoir(deletedSheeps, r);
+    print("The randomweather is : " + r1);
     print("The random is : " + r);
     print("deletedSheeps/nbSheep " + deletedSheeps/nbSheep);
-    print("deletedSheeps : " + deletedSheeps/nbSheep);
+    print("deletedSheeps : " + deletedSheeps);
     print("Pink door : " + pinkDoor);
     print("Black door : " + blackDoor);
     loop = 4;
@@ -66,9 +67,10 @@ function fifteenSheep() {
     }
     probaPorteRose(deletedSheeps, r);
     probaPorteNoir(deletedSheeps, r);
+    print("The randomweather is : " + r1);
     print("The random is : " + r);
     print("deletedSheeps/nbSheep " + deletedSheeps/nbSheep);
-    print("deletedSheeps : " + deletedSheeps/nbSheep);
+    print("deletedSheeps : " + deletedSheeps);
     print("Pink door : " + pinkDoor);
     print("Black door : " + blackDoor);
     loop = 4;
@@ -98,9 +100,10 @@ function twentySheep() {
     }
     probaPorteRose(deletedSheeps, r);
     probaPorteNoir(deletedSheeps, r);
+    print("The randomweather is : " + r1);
     print("The random is : " + r);
     print("deletedSheeps/nbSheep " + deletedSheeps/nbSheep);
-    print("deletedSheeps : " + deletedSheeps/nbSheep);
+    print("deletedSheeps : " + deletedSheeps);
     print("Pink door : " + pinkDoor);
     print("Black door : " + blackDoor);
     loop = 4;
@@ -137,9 +140,10 @@ function changeLoop14() {
     }
     probaPorteRose(deletedSheeps, r);
     probaPorteNoir(deletedSheeps, r);
+    print("The randomweather is : " + r1);
     print("The random is : " + r);
     print("deletedSheeps/nbSheep " + deletedSheeps/nbSheep);
-    print("deletedSheeps : " + deletedSheeps/nbSheep);
+    print("deletedSheeps : " + deletedSheeps);
     print("Pink door : " + pinkDoor);
     print("Black door : " + blackDoor);
     loop = 4;

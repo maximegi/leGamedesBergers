@@ -8,7 +8,7 @@ let sheep;
 let direction = 15;
 let nbSheep = 10;
 let weather;
-let r;
+let r,r1;
 let deletedSheeps = 0;
 let pinkDoor, blackDoor;
 let doorclicked1, doorclicked2;
@@ -102,7 +102,8 @@ function setup() {
     createCanvas(800, 800);
 
     r = random().toPrecision(5);
-    weather = probaTemps(r);
+    r1 = random().toPrecision(5);
+    weather = probaTemps(r1);
     
     for (var i = 0; i < 10; i++) {
         clouds[i] = new Cloud(); 
